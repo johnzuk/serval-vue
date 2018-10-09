@@ -84,11 +84,6 @@
 </template>
 
 <style>
-body {
-  padding: 0;
-  margin: 0;
-}
-
 .nuxt-link {
   text-decoration: none;
 }
