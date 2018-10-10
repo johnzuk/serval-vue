@@ -16,8 +16,10 @@
     "@nuxtjs/axios": "^5.0.0",
     "cross-env": "^5.2.0",
     "element-ui": "^2.4.6",
+    "node-sass": "^4.9.3",
     "nuxt": "^2.0.0",
-    "reset-css": "^4.0.1"
+    "reset-css": "^4.0.1",
+    "sass-loader": "^7.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
