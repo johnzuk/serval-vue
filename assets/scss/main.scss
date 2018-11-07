@@ -1,3 +1,21 @@
 @import "~reset-css";
 @import "bootstrap";
 @import "typography";
+
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.sidebar {
+  min-width: 220px;
+  max-width: 220px;
+  min-height: 100vh;
+  transition: margin .4s ease-in-out;
+  z-index: 2;
+}
+
+.main {
+  width: 100%;
+}
