@@ -34,13 +34,14 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/element-ui'
+      //'@/plugins/bootstrap-vue',
   ],
 
   /*
   ** Nuxt.js modules
   */
   modules: [
+      'bootstrap-vue/nuxt',
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios'
   ],
